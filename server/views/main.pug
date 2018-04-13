@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title= "HTML App with Web Components"
+    body.app-body
+        header
+            h1= "Multiple Components on a Page"
+        section
+            <foo-component message="hello" />
+        section
+            <bar-component message="hi there" />
+        script(type="module" src="/public/foo-component/dist/foo-bundle.js")
+        script(type="module" src="/public/bar-component/dist/bar-bundle.js")

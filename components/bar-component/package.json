@@ -1,0 +1,30 @@
+{
+    "name": "bar-component",
+    "version": "0.0.1",
+    "main": "dist/bar-bundle.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "dependencies": {
+        "@polymer/polymer": "^3.0.0-pre.12"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.2.2",
+        "babel-loader": "^7.1.4",
+        "copy-webpack-plugin": "^4.5.1",
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-loader": "^2.0.0",
+        "eslint-plugin-fp": "^2.3.0",
+        "eslint-plugin-import": "^2.9.0",
+        "file-loader": "^1.1.11",
+        "polymer-webpack-loader": "^2.0.2",
+        "postcss-cssnext": "^3.1.0",
+        "postcss-import": "^11.1.0",
+        "postcss-loader": "^2.1.3",
+        "postcss-mixins": "^6.2.0",
+        "webpack": "^4.5.0",
+        "webpack-cli": "^2.0.14"
+    }
+}
